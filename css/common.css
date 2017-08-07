@@ -1,0 +1,78 @@
+*{
+    margin:0;padding:0;
+}
+body{
+    background:url('../images/bg.jpg') no-repeat fixed;
+    background-size:cover;
+}
+.text-main{
+    width:600px;
+    background:#fff;
+    margin:100px auto 0;
+    border-radius:5px;
+    padding:10px 20px;
+}
+.text-main .title{
+    color:#666;
+    font-size:12px;
+    line-height:30px;
+    font-family:"微软雅黑";
+}
+.text-main .text{
+    width:598px;
+    height:80px;
+    border:1px solid #ddd;
+    margin:10px 0;
+}
+.text-main .btn-box{
+    position:relative;
+}
+.text-main .btn-box a{
+    float:right;
+    padding:5px 10px;
+    background:#ff9966;
+    color:#fff;
+    border-radius:5px;
+    text-decoration:none;
+}
+.text-main .btn-box ul{
+    width:390px;
+    height:175px;
+    background:#fff;
+    border:1px solid #666;
+    padding:5px;
+    position:absolute;
+    left:20px;
+    top:20px;
+    display:none;
+}
+.text-main .btn-box ul li{
+    float:left;
+    list-style:none;
+    margin:2px;
+}
+.main{
+    width:640px;
+    margin:0 auto;
+}
+.main .con{
+    width:600px;
+    background:#fff;
+    padding:0 20px;
+    margin-top:10px;
+}
+.main .con .top{
+    width:600px;
+    border-bottom:1px solid #ddd;
+    padding:10px 0;
+}
+.main .con .top img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+.main .con  .content{
+    color:#666;
+    font-size:12px;
+    line-height:30px;
+}
